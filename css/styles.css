@@ -71,4 +71,16 @@ nav{
     text-align: center;
     padding: 5px;
   }
+  .banner-right img{
+    width: 100%;
+    width: 440px;
+    height: 414px;
+  }
+  .banner-right{
+    background-image: url("../images/circle-design.svg");
+    background-position-x: right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+  }
 
