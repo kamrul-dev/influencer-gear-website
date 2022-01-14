@@ -83,9 +83,6 @@ nav{
     width: 440px;
     height: 414px;
   }
-  .banner-right img:hover{
-      transform: skew(360deg);
-  }
   .banner-right{
     background-image: url("../images/circle-design.svg");
     background-position-x: right;
