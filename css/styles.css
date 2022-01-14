@@ -71,10 +71,20 @@ nav{
     text-align: center;
     padding: 5px;
   }
+  .banner-left a:hover{
+    box-shadow: inset 0 0 10px #000000;
+    transition: 0.5s;
+  }
+  .banner-left i{
+    color: #ffffff;
+  }
   .banner-right img{
     width: 100%;
     width: 440px;
     height: 414px;
+  }
+  .banner-right img:hover{
+      transform: skew(360deg);
   }
   .banner-right{
     background-image: url("../images/circle-design.svg");
