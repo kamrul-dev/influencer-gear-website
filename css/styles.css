@@ -102,15 +102,29 @@ footer section
 footer{
     max-width: 100%;
     background: #0A0826;
+    padding: 50px;
 }
 .footer-info{
     text-align: center;
     color: #ffffff;
-    padding: 50px;
 }
 .footer-info h3{
     font-size: 24px;
 }
 .footer-info p{
     font-size: 14px;
+}
+.footer-social-icon{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 16px;
+    margin-top: 16px;
+}
+.social-icon, .fab{
+    color: #ffffff;
+}
+.social-icon, .fa-instagram, .fa-facebook, .fa-twitter, .fa-youtube{
+    background-color: #22213C;
+    border-radius: 50%;
 }
