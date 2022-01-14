@@ -51,9 +51,24 @@ nav{
   .banner{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      align-items: center;
   }
   .banner-left h1{
       color: var(--primary-color);
       font-size: 52px;
+  }
+  .banner-left p{
+      margin: 16px 0;
+  }
+  .banner-left a{
+    display: block;
+    text-decoration: none;
+    background: #E02C6D;
+    border-radius: 41px;
+    color: #ffffff;
+    width: 196px;
+    height: 38px;
+    text-align: center;
+    padding: 5px;
   }
 
