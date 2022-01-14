@@ -17,6 +17,9 @@ body{
     max-width: 1200px;
     margin: 0 auto;                 
 }
+/*-----------------------
+    top navigatin bar style
+---------------------------------- */
 nav{
     display: flex;
     justify-content: space-between;
