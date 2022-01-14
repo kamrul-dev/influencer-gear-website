@@ -93,3 +93,9 @@ nav{
 /*------------------------
     Company Brand Logo styels 
  -------------------------------------*/
+.company-logo{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    padding: 70px;
+}
