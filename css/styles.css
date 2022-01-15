@@ -229,3 +229,54 @@ footer{
     background-color: #22213C;
     border-radius: 50%;
 }
+
+/*--------------------
+ Responsive style
+ ------------------------------- */
+ @media (max-width:688px) {
+     .banner{
+         grid-template-columns: repeat(1, 1fr);
+     }
+     .banner-left{
+         order: 2;
+     }
+     .company-logo{
+         grid-template-columns: repeat(1, 1fr);
+         
+     }
+     .logo{
+        margin-bottom: 15px;
+     }
+     .product-card{
+         grid-template-columns: repeat(1, 1fr);
+     }
+     .feature{
+         grid-template-columns: repeat(1, 1fr);
+     }
+ }
+ @media (max-width:992px) {
+     .banner{
+         grid-template-columns: repeat(1, 1fr);
+         padding: 0 30px;
+     }
+     .banner-left{
+        order: 2;
+    }
+    .company-logo{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);  
+    }
+    .logo{
+        margin-bottom: 15px;
+        
+     }
+     .product-card{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 30px;
+     }
+     .feature{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 30px;
+    }
+
+ }
