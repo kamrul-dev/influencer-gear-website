@@ -137,6 +137,15 @@ nav{
     color: orange;
     font-size: 15px;
 }
+.see-more-button{
+    padding-top: 50px;
+    text-align: right;
+}
+.see-more-button a, i{
+    text-decoration: none; 
+    color: rgba(224, 44, 109, 0.87); 
+    font-size: 16px;
+}
 /*------------------------
 footer section 
 --------------------------------------*/
