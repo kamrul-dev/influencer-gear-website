@@ -163,6 +163,7 @@ Featured section style
     color: var(--primary-color);
     text-align: center;
     padding: 30px 0;
+    font-size: 28px;
 }
 .feature{
     display: grid;
@@ -178,7 +179,9 @@ Featured section style
     border-radius: 10px;
     width: 270px;
     height: 160px;
-
+}
+.feature-items:hover{
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
 .feature-items p{
   font-size: 14px;
