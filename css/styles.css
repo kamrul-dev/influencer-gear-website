@@ -191,6 +191,11 @@ Featured section style
   color: #787885;
   margin: 5px 0;
 }
+.feature-icon{
+    background-color: #F7F0FF;
+    border-radius: 100%;
+    text-align: center;
+}
 
 /*------------------------
 footer section 
