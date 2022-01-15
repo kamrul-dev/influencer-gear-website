@@ -95,7 +95,30 @@ nav{
     padding: 15px 70px;
     margin-top: 100px;
 }
-
+/*----------------------------------
+ Popular collection section style 
+ ----------------------------------------------*/
+ .popular-section-title h2{
+    color: var(--primary-color);
+    font-size: 28px;
+    text-align: center;
+    margin: 100px 0 30px 0;
+}
+.product-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+ }
+ 
+.product-photo-frame{
+   width: 329px;
+   height: 476px;
+   padding: 15px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.product-photo img{
+   width: 100%;
+}
 /*------------------------
 footer section 
 --------------------------------------*/
@@ -128,12 +151,3 @@ footer{
     background-color: #22213C;
     border-radius: 50%;
 }
-/*----------------------------------
- Popular collection section style 
- ----------------------------------------------*/
- .popular-section-title h2{
-     color: var(--primary-color);
-     font-size: 28px;
-     text-align: center;
-     margin: 100px 0 30px 0;
- }
